@@ -1,10 +1,14 @@
 # [유연한 소프트웨어를 만드는 설계 원칙](https://www.hanbit.co.kr/store/books/look.php?p_code=B3855421165)
 
+![책 커버](./cover.jpg)
+
 함수형 프로그래밍의 고급 지식을 얻을 수 있는 책입니다.
 
 책의 코드는 Scheme으로 작성되어 있습니다.
 
-학습을 위해 JavaScript로 작성해보고 다시 Scheme으로 작성해서 실행합니다.
+Brendan Eich는 Scheme을 웹브라우저에 탑재하려다가 상사의 의견에 따라 Java와 비슷한 문법을 가지면서도 함수형 언어인 Scheme의 성질을 가진 JavaScript를 만들었습니다([https://en.wikipedia.org/wiki/Brendan_Eich](https://en.wikipedia.org/wiki/Brendan_Eich)).
+
+따라서 학습을 위해 책의 Scheme 코드를 JavaScript로 작성해보는건 매우 합리적인 선택입니다.
 
 ## install mit-scheme for arm64 mac with docker
 
