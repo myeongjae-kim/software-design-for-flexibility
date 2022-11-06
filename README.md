@@ -19,7 +19,7 @@ docker -it z3r05um/mit-scheme:11.2-arm64
 cat a.scm | docker run -i z3r05um/mit-scheme:11.2-arm64 /bin/bash -c 'cat > temp.scm && /opt/mit-scheme/bin/mit-scheme < temp.scm'
 ```
 
-### run interactive shell with directory mounted
+### run interactive shell with directory mounted ([scheme.sh](./scheme.sh))
 
 ```
 docker run -it -v "$(pwd)"/:/host --entrypoint /bin/bash -w="/host" --env PATH='/opt/mit-scheme/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin' z3r05um/mit-scheme:11.2-arm64
